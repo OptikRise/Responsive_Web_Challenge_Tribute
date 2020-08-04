@@ -1,0 +1,60 @@
+/* CSS style sheet for the Tribute practice site. */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #EEEEEE;
+	display: flex;
+	flex-direction: column;
+}
+
+header {	
+	text-align: center;
+	padding: 10px;
+}
+
+#img-div {
+	background-color: #fff;
+	padding: 10px;
+	margin: 0;
+}
+
+#image {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+#img-caption {
+	margin: 15px 0 5px 0;
+	text-align: center;
+}
+
+h3 {
+	margin: 50px 0;
+	text-align: center;
+}
+
+ul {
+	max-width: 550px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	line-height: 1.6;
+}
+
+li {
+	margin: 16px 0;
+}
+
+#tribute-info {
+	max-width: 545px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+}
+
+footer {
+	font-size: 1.17em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0.5em auto;
+}
